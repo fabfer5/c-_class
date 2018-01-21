@@ -3,9 +3,11 @@
 // Author: Favian Fernande
 // File Name: lab1_favian_convertCentimeter.cpp
 // Date:  Jan 21, 2018
-/*Description: Write a program that takes length as input in feet and inches. 
+/*
+Description: Write a program that takes length as input in feet and inches. 
 The program should then convert the lengths in centimeters and display it on screen. 
-Use the following named constants.*/
+Use the following named constants.
+ */
 
 #include <iostream>
 #include <string>
