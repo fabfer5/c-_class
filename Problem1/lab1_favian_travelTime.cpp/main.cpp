@@ -20,19 +20,18 @@ const int INCHES_PER_FOOT = 12;			//Named constants
 
 int main ()
 {
-	int feet, inches;
-	int totalInches;
-	double centimeter;
-        
-	cout << "Enter two integers, one for feet and one for inches: "; 
-	cin >> feet >> inches;
+	
+	double speed,distance ;
+        double time;
+	cout << "Enter two integers, one for speed and one for distance: "; 
+	cin >> speed >> distance;
 	cout << endl;
         
-	cout << "The numbers you entered are " << feet << " for feet and " << inches << " for inches. " << endl; 
+	cout << "The numbers you entered are " << speed << " for speed and " << distance << " for distance. " << endl; 
 	
-        totalInches = INCHES_PER_FOOT * feet + inches;
-	cout << "The total number of inches = " << totalInches <<" inches"<< endl;
-	centimeter = CENTIMETERS_PER_INCH * totalInches;
-	cout << "The number of centimeters = " << centimeter <<" inches"<< endl;
+        time = distance/speed;
+	cout << "The total time = " << time <<" howers/minets"<< endl;
+	
+        
 return 0;
 }
