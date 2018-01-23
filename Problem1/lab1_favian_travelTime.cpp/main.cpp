@@ -1,7 +1,7 @@
 // CMPSC125  
 // Project:  Lab 1
 // Author: Favian Fernande
-// File Name: lab1_favian_convertCentimeter.cpp
+// File Name: lab1_favian_Traveltime.cpp
 // Date:  Jan 21, 2018
 /*
 Description: Write a program that takes length as input in feet and inches. 
