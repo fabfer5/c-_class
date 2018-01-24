@@ -16,7 +16,7 @@ const double SOCIAL_SECURITY_TAX = .035;
 const double MEDICARE_TAX = .0275;
 const double PENSION_PLAN = .06;
 const int HEALTH_INSURANCE = 80.00;
-double netpay;
+double nettttttttttpay;
 double net_pay;
 
 
@@ -35,7 +35,7 @@ double MEDICARETAX = grosspay*.0275;
 double PENSIONPLAN = grosspay*.06;
 double HEALTHINSURANCE= 80.00;
 double net_pay=FEDERAL_TAX+STATETAX+SOCIALSECURITYTAX+MEDICARETAX+PENSIONPLAN+HEALTHINSURANCE;
-double netpay= grosspay-net_pay;
+double nettttttttttpay= grosspay-net_pay;
 
 cout << "the federal taxes you will be paying is : $"<<FEDERAL_TAX << endl;
 cout << "the STAT taxes you will be paying is : $"<<STATETAX<< endl;
@@ -43,7 +43,7 @@ cout << "the SOCIAL SECURITY taxes you will be paying is : $"<<SOCIALSECURITYTAX
 cout << "the MEDI CARE taxes you will be paying is : $"<<MEDICARETAX << endl;
 cout << "the PENSIONPLAN you will be paying is : $"<<PENSIONPLAN << endl;
 cout << "the HEALTHINSURANCE you will be paying is : $"<<HEALTHINSURANCE << endl;
-cout << "the net pay is :$ "<<netpay << endl;
+cout << "the net pay is :$ "<<nettttttttttpay << endl;
 
 return 0;
 }
